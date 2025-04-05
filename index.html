@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Search Engine</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Visual Search Engine</h1>
+        
+        <!-- Text Search Section -->
+        <div>
+            <input id="textSearch" type="text" placeholder="Search for images...">
+            <button onclick="searchByText()">Search</button>
+        </div>
+
+        <!-- Image Search Section -->
+        <div>
+            <input id="imageUpload" type="file" accept="image/*" onchange="searchByImage(event)">
+        </div>
+
+        <!-- Display Section -->
+        <div id="results"></div>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
