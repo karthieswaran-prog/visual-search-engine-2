@@ -4,7 +4,7 @@ download the zip file
 
 extract the zip file
 
-open the extracte file
+open the extracted file
 
 open the index.html file
 
